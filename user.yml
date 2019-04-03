@@ -1,6 +1,6 @@
 ---
 - name: Adds user
-  hosts: localhost
+  hosts: all
   become: yes
   become_method: sudo
   connection: ssh
